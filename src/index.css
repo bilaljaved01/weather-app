@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b5f5ff;
+  margin: 0;           /* Remove default margin from the body */
+  height: 100vh;       /* Set the height of the body to the full viewport height */
+  display: flex;       /* Use flexbox to center content inside the body */
+  justify-content: center;  /* Center content horizontally */
+  align-items:start;      /* Center content vertically */
+}
+
