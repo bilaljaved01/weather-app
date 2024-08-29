@@ -1,20 +1,29 @@
+@font-face {
+  font-family: 'rdr2';
+  src: local('rdr2'), url('./assets/fonts/rdr2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /* App.css */
 .App {
   text-align: center;
-  font-family: Arial, sans-serif;
+  
 }
 
 input {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #cacaca;
 }
 
 button {
   padding: 10px 15px;
+  font-family: "rdr2";
   margin: 10px;
-  background-color: #007bff;
+  background-color: #9b0000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -22,16 +31,22 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #640202;
 }
 
 h1 {
-  color: #333;
-}
+  color: #000000;
+  font-family: rdr2;
+  font-weight: 700;
+
+    
+  }
+  
+
 
 .weather-info {
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 15px solid #e8e8e8;
   border-radius: 5px;
 }

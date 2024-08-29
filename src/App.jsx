@@ -52,7 +52,7 @@ function App() {
       />
 
       {/* Button to fetch data manually if needed */}
-      <button onClick={fetchWeatherData}>Searchhhh</button>
+      <button onClick={fetchWeatherData}>Search</button>
 
      
 

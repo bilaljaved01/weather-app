@@ -1,6 +1,25 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #b5f5ff;
+   position: absolute;
+  display: flex;
+  width: 100%;
+  min-height: calc((1vw + 1vh) * 75);
+  top: 0%; left: 50%; transform: translate(-50%, 0);
+  margin: 2em 0;
+  padding: 4em;
+  box-shadow: 2px 3px 20px black, 0 0 60px #080502 inset;
+   background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  filter: url(#wavy2);
+  
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ 
+    font-family: "HOMEMADE APPLE", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+  
+  
+  background-color: #f0d3ac;
   margin: 0;           /* Remove default margin from the body */
   height: 100vh;       /* Set the height of the body to the full viewport height */
   display: flex;       /* Use flexbox to center content inside the body */
